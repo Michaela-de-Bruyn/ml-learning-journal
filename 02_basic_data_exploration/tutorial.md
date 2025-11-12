@@ -105,9 +105,13 @@ Helps focus on features suitable for regression or other numerical predictions.
 ## ✅ Reflection Questions
 
 Which columns might be useful for predicting house prices?
+
 Are there any columns with too many missing values that might need cleaning?
+
 Can you identify categorical vs numerical columns? Why is this important?
+
 How does understanding the data at this stage improve model quality?
+
 
 
 
