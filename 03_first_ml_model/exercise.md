@@ -129,10 +129,11 @@ print(pd.DataFrame({'Predicted': predictions, 'Actual': y}).head())
 # Explanation:
 This lets you visually inspect how close the model's predictions are to the actual sale prices.
 
-## Key Takeaways
+# Key Takeaways
 
 Always define target ```(y)``` and features ```(X)``` before modeling.
 A Decision Tree illustrates the ML workflow: define → fit → predict → evaluate.
 ```.describe()``` and ```.head()``` help detect anomalies before modeling.
 Kaggle helper functions reinforce correct implementation and understanding.
+
 
