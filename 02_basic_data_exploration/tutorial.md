@@ -6,5 +6,6 @@ This tutorial guides you through exploring datasets using Python's Pandas librar
 
 ## 1️⃣ Import Pandas
 
-```python
+```python```
 import pandas as pd
+
