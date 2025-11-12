@@ -29,8 +29,8 @@ melbourne_data.columns
 ```
 
 # Explanation:
-pd.read_csv() reads the CSV into a Pandas DataFrame.
-.columns shows all column names so you can select which variables to use.
+```pd.read_csv()``` reads the CSV into a Pandas DataFrame.
+```.column```s shows all column names so you can select which variables to use.
 
 ## Step 2: Handle missing values
 ```python
@@ -39,7 +39,7 @@ melbourne_data = melbourne_data.dropna(axis=0)
 ```
 
 # Explanation:
-.dropna(axis=0) removes any rows with missing values.
+```.dropna(axis=0)``` removes any rows with missing values.
 This is a simple approach for now; later, you can learn more sophisticated imputation techniques.
 
 ## Step 3: Select the prediction target
@@ -49,8 +49,8 @@ y = melbourne_data.Price
 ```
 
 # Explanation:
-y is our target variable, i.e., the column we want to predict.
-Using dot notation (melbourne_data.Price) extracts the column as a Series.
+```y``` is our target variable, i.e., the column we want to predict.
+Using dot notation ```(melbourne_data.Price)``` extracts the column as a Series.
 
 ## Step 4: Select features
 ```python
@@ -66,9 +66,9 @@ X.head()
 ```
 
 # Explanation:
-melbourne_features is a list of column names we’ll use as input features.
-X = melbourne_data[melbourne_features] creates a DataFrame with only the selected features.
-.describe() gives summary statistics; .head() shows the first 5 rows.
+```melbourne_features``` is a list of column names we’ll use as input features.
+```X = melbourne_data[melbourne_features]``` creates a DataFrame with only the selected features.
+```.describe()``` gives summary statistics; ```.head()``` shows the first 5 rows.
 
 ## Step 5: Fit a Decision Tree model
 ```python
@@ -82,9 +82,9 @@ melbourne_model.fit(X, y)
 ```
 
 # Explanation:
-DecisionTreeRegressor is a type of machine learning model for predicting numeric values.
-random_state=1 ensures reproducible results.
-.fit(X, y) trains the model to capture patterns in the data.
+```DecisionTreeRegressor``` is a type of machine learning model for predicting numeric values.
+```random_state=1``` ensures reproducible results.
+```.fit(X, y)``` trains the model to capture patterns in the data.
 
 ## Step 6: Make predictions
 ```python
@@ -106,7 +106,7 @@ The predictions are:
 [1035000. 1465000. 1600000. 1876000. 1636000.]
 
 # Explanation:
-.predict() uses the trained model to predict house prices for the first 5 rows.
+```.predict()``` uses the trained model to predict house prices for the first 5 rows.
 The predictions are numerical estimates of home prices based on the features selected.
 
 ## ✅ Key Takeaways
@@ -118,3 +118,4 @@ Dropping missing values is a simple way to clean data initially.
 Reviewing data with .describe() and .head() helps detect anomalies early.
 
 Fitting and predicting with a Decision Tree shows the full ML workflow: define → fit → predict → evaluate.
+
