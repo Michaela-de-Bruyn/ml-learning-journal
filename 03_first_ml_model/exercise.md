@@ -44,7 +44,7 @@ y = home_data.SalePrice
 step_1.check()
 ```
 
-#Explanation:
+# Explanation:
 ```home_data.SalePrice``` selects the column representing sale price.
 ```step_1.check()``` verifies your target variable is correct.
 
@@ -135,3 +135,4 @@ Always define target ```(y)``` and features ```(X)``` before modeling.
 A Decision Tree illustrates the ML workflow: define → fit → predict → evaluate.
 ```.describe()``` and ```.head()``` help detect anomalies before modeling.
 Kaggle helper functions reinforce correct implementation and understanding.
+
