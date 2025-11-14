@@ -109,7 +109,7 @@ The predictions are:
 ```.predict()``` uses the trained model to predict house prices for the first 5 rows.
 The predictions are numerical estimates of home prices based on the features selected.
 
-## ✅ Key Takeaways
+## Key Takeaways
 
 Selecting target and features is crucial before building any model.
 
@@ -118,4 +118,5 @@ Dropping missing values is a simple way to clean data initially.
 Reviewing data with .describe() and .head() helps detect anomalies early.
 
 Fitting and predicting with a Decision Tree shows the full ML workflow: define → fit → predict → evaluate.
+
 
