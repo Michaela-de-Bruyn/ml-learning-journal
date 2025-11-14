@@ -1,4 +1,4 @@
-## Random Forests
+# Random Forests
 # Instructions / Summary
 
 In this lesson, you will learn:
@@ -124,3 +124,4 @@ They work extremely well with default settings.
 Evaluate performance using Mean Absolute Error (MAE).
 
 Random Forests often outperform individual decision trees by a large margin.
+
