@@ -24,8 +24,6 @@ A decision tree becomes more complex as it adds more splits (i.e., becomes deepe
 
 ![Shallow decision tree](images/shallow_tree.png)
 
-<Image: shallow_tree.png>
-
 Makes very few splits
 
 Groups many houses together
@@ -148,3 +146,4 @@ Use validation data to evaluate how well your model generalizes to new data.
 max_leaf_nodes is a simple and powerful way to control tree complexity.
 
 The best model is the one with the lowest validation MAE, not the lowest training error.
+
